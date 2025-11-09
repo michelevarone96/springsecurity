@@ -1,0 +1,12 @@
+<users>
+    <user>
+        <username>user</username>
+        <password>{bcrypt}$2a$10$2LUoJApCADiL8Yi1qNdiceRN8jp3ks6.anjRrPuxNyjiP0Y56p9uu</password> <!-- password hashata con BCrypt -->
+        <roles>USER</roles>
+    </user>
+    <user>
+        <username>admin</username>
+        <password>{bcrypt}$2a$10$2LUoJApCADiL8Yi1qNdiceRN8jp3ks6.anjRrPuxNyjiP0Y56p9uu</password>
+        <roles>ADMIN</roles>
+    </user>
+</users>
